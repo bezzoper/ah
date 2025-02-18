@@ -12,16 +12,16 @@
     <!-- Open Graph Meta Tags untuk SEO Media Sosial -->
     <meta property="og:title" content="FREE | CF | PROXY | LIFETIME">
     <meta property="og:description" content="FREE | CF | PROXY | LIFETIME">
-    <meta property="og:image" content="https://novan.life/Gmbr/background.jpg"> <!-- Ganti dengan URL gambar yang sesuai -->
-    <meta property="og:url" content="https://novan.life/Gmbr/background.jpg">
+    <meta property="og:image" content="https://poto.biz.id/Gmbr/pcg.jpg"> <!-- Ganti dengan URL gambar yang sesuai -->
+    <meta property="og:url" content="https://poto.biz.id/Gmbr/pcg.jpg">
     <meta property="og:type" content="website">
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FREE | CF | PROXY | LIFETIME">
     <meta name="twitter:description" content="FREE | CF | PROXY | LIFETIME">
-    <meta name="twitter:image" content="https://novan.life/Gmbr/background.jpg"> <!-- Ganti dengan URL gambar yang sesuai -->
-    <link href="https://novan.life/Gmbr/background.jpg" rel="icon" type="image/png">
+    <meta name="twitter:image" content="https://poto.biz.id/Gmbr/pcg.jpg"> <!-- Ganti dengan URL gambar yang sesuai -->
+    <link href="https://poto.biz.id/Gmbr/pcg.jpg" rel="icon" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css/css/flag-icon.min.css">
     
@@ -1411,7 +1411,7 @@ SHOW LINK SUB</button></center>
     </div>
   </div>
   <footer class="footer">
-    <h2><p>&copy; 2025 NOVAN TUNNEL</p></h2>
+    <h2><p>&copy; 2025 FREE CF PROXY LIFETIME</p></h2>
   </footer>
 <script>
 
@@ -1439,7 +1439,7 @@ function generateLinks() {
     if (!bug) {
       wildcard = "false"; // Atur wildcard menjadi false jika bug tidak diisi
     }
-    link1 = `https://cf.novantunnel.xyz/vpn/${app}?type=${configType}&bug=${bug}&tls=${tls}&wildcard=${wildcard}&limit=${limit}&country=${country}`;
+    link1 = `https://cf.novantunnel.life/vpn/${app}?type=${configType}&bug=${bug}&tls=${tls}&wildcard=${wildcard}&limit=${limit}&country=${country}`;
   }
 
   // Tampilkan link pada input box
@@ -1525,7 +1525,7 @@ function uuidv4() {
 }
 
   // URL untuk mendapatkan proxy list
-  fetch("https://apiproxy.us.kg/update_proxyip.txt")
+  fetch("https://raw.githubusercontent.com/Novantunnel/p/refs/heads/main/proxy.txt")
     .then(response => response.text())
     .then(data => {
       const allProxies = data.split("\n").filter(line => line.trim() !== "");
@@ -1584,7 +1584,7 @@ function uuidv4() {
   statusElement.innerHTML = '<div class="loading-icon"></div>';
 
   const startTime = performance.now(); // Mencatat waktu awal
-  const StatusURL = `https://ns1.bmkg.xyz/check?target=${ip}:${port}`;
+  const StatusURL = `https://tes.cloudfeler.xyz/check?target=${ip}:${port}`;
 
   // Mengambil data dari API untuk memeriksa status proxy
   fetch(StatusURL)
@@ -1731,7 +1731,7 @@ function uuidv4() {
         proxyList.appendChild(row);
 
         row.querySelector('.copy-vless').addEventListener('click', () => {
-    const host = "cf.novantunnel.xyz";
+    const host = "cf.novantunnel.life";
 const selectedService = row.querySelector('.service-selector').value || host;
 const domain = selectedService === host ? host : `${selectedService}.${host}`;
     const VLESS = `vless://${uuidv4()}@${selectedService}:443?encryption=none&type=ws&host=${domain}&path=%2F${id}${cons}&security=tls&sni=${domain}#(${selectedService})+${id}+${isp}`;
@@ -1750,7 +1750,7 @@ const domain = selectedService === host ? host : `${selectedService}.${host}`;
 });
 
 row.querySelector('.copy-vless-clash').addEventListener('click', () => {
-    const host = "cf.novantunnel.xyz";
+    const host = "cf.novantunnel.life";
 const selectedService = row.querySelector('.service-selector').value || host;
 const domain = selectedService === host ? host : `${selectedService}.${host}`;
     const VLESSC = `vless://${uuidv4()}@${selectedService}:443?encryption=none&type=ws&host=${domain}&path=%2F${ip}-${port}&security=tls&sni=${domain}#(${selectedService})+${id}+${isp}`;
@@ -1769,7 +1769,7 @@ const domain = selectedService === host ? host : `${selectedService}.${host}`;
 });
 
 row.querySelector('.copy-trojan').addEventListener('click', () => {
-    const host = "cf.novantunnel.xyz";
+    const host = "cf.novantunnel.life";
 const selectedService = row.querySelector('.service-selector').value || host;
 const domain = selectedService === host ? host : `${selectedService}.${host}`;
     const TROJAN = `trojan://${uuidv4()}@${selectedService}:443?encryption=none&type=ws&host=${domain}&path=%2F${id}${cons}&security=tls&sni=${domain}#(${selectedService})+${id}+${isp}`;
@@ -1789,7 +1789,7 @@ const domain = selectedService === host ? host : `${selectedService}.${host}`;
 
 row.querySelector('.copy-trojan-clash877').addEventListener('click', () => {
     const selectedService = row.querySelector('.service-selector').value || "xvp.bmkg.xyz";
-    const host = "cf.novantunnel.xyz";
+    const host = "cf.novantunnel.life";
     const domain = selectedService === host ? host : `${selectedService}.${host}`;
     const TROJANC877 = `trojan://${uuidv4()}@${selectedService}:443?encryption=none&type=ws&host=${domain}&path=%2F${ip}-${port}&security=tls&sni=${domain}#(${selectedService})+${id}+${isp}`;
     
@@ -1808,7 +1808,7 @@ row.querySelector('.copy-trojan-clash877').addEventListener('click', () => {
 });
 
 row.querySelector('.copy-ss').addEventListener('click', () => {
-    const host = "cf.novantunnel.xyz";
+    const host = "cf.novantunnel.life";
 const selectedService = row.querySelector('.service-selector').value || host;
 const domain = selectedService === host ? host : `${selectedService}.${host}`;
     const SS = `ss://bm9uZTo1ZDJlYmQyYS05Y2I5LTRkMWItYWY1NS04NjE3ZDNlODFmMzk%3D@${selectedService}:443?encryption=none&type=ws&host=${domain}&path=%2F${id}${cons}&security=tls&sni=${domain}#(${selectedService})+${id}+${isp}`;
@@ -1827,7 +1827,7 @@ const domain = selectedService === host ? host : `${selectedService}.${host}`;
 });
 
 row.querySelector('.copy-ss1').addEventListener('click', () => {
-    const host = "cf.novantunnel.xyz";
+    const host = "cf.novantunnel.life";
 const selectedService = row.querySelector('.service-selector').value || host;
 const domain = selectedService === host ? host : `${selectedService}.${host}`;
     const SS1 = `ss://bm9uZTo1ZDJlYmQyYS05Y2I5LTRkMWItYWY1NS04NjE3ZDNlODFmMzk%3D@${selectedService}:443?encryption=none&type=ws&host=${domain}&path=%2F${ip}-${port}&security=tls&sni=${domain}#(${selectedService})+${id}+${isp}`;
